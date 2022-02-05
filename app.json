@@ -1,0 +1,30 @@
+{
+    "name": "sticker id",
+    "description": "Stikerlərin ID`in tapmaq üçün bot.",
+    "repository": "https://Github.com/BGHRFF/StikerID",
+    "keywords": [
+        "bot",
+        "stickerid",
+        "pyrogram"
+    ],
+    "env": {
+        "BOT_TOKEN": {
+            "description": "@BotFather' dən aldığınız bot tokeni"
+        },
+        "API_ID": {
+            "description": "Sizin API_ID` iniz https://my.telegram.org/apps"
+        },
+        "API_HASH": {
+            "description": "Sizin API_HASH` ınız https://my.telegram.org/apps"
+        },
+        "CHANNEL": {
+            "description": "Sizin kanal username`iniz",
+            "value": "bybaghirov"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
